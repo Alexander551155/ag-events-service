@@ -158,35 +158,71 @@
 <section id="kontakt" class="py-6">
   <div class="container">
     <div class="row g-5">
+      
+      <!-- Linke Spalte: Kontaktdaten -->
       <div class="col-lg-5">
         <h3 class="fw-bold mb-3">Kontakt</h3>
-        <p class="mb-1">📧 <a href="mailto:info@personalservice-gill.de">info@personalservice-gill.de</a></p>
-        <p class="mb-1">☎ +49 15563 030928</p>
-        <p>📍 Gymnasiumstraße 4, 55116 Mainz</p>
-        <!-- Google Maps (простой embed) -->
-<div class="ratio ratio-16x9 rounded-4 shadow-sm overflow-hidden">
-  <iframe
-    src="https://www.google.com/maps?q=Gymnasiumstraße%204,%2055116%20Mainz&output=embed"
-    style="border:0;" allowfullscreen="" loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade">
-  </iframe>
-</div>
 
-        <small class="text-muted">Mo–Fr 09:00–18:00</small>
+        <p>📍 Adresse:<br>
+        Gymnasiumstraße 4, 55116 Mainz</p>
+
+        <p>📞 Telefon:<br>
+        +49 15563 030928<br>
+        <small class="text-muted">(telefonisch erreichbar während unserer Öffnungszeiten)</small></p>
+
+        <p>✉️ E-Mail:<br>
+        <a href="mailto:info@personalservice-gill.de">info@personalservice-gill.de</a></p>
+
+        <p>🕘 Öffnungszeiten:<br>
+        Montag – Freitag: 09:00 – 18:00 Uhr<br>
+        <small class="text-muted">(Samstag, Sonntag & Feiertage geschlossen)</small></p>
+
+        <p>🚋 Anfahrt mit öffentlichen Verkehrsmitteln:<br>
+        Die Haltestelle Schillerplatz befindet sich nur ca. 5 Gehminuten entfernt. Von dort erreichen Sie uns bequem zu Fuß.</p>
+
+        <p>🚗 Anfahrt mit dem Auto:<br>
+        Parkmöglichkeiten finden Sie direkt in der Nähe, z. B. im Parkhaus Schillerplatz.</p>
+
+        <p class="fw-semibold">✨ Wir freuen uns auf Ihren Besuch und sind telefonisch wie auch per E-Mail für Sie da!</p>
+
+        <!-- Google Maps -->
+        <div class="ratio ratio-16x9 rounded-4 shadow-sm overflow-hidden mt-3">
+          <iframe
+            src="https://www.google.com/maps?q=Gymnasiumstraße%204,%2055116%20Mainz&output=embed"
+            style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
       </div>
+
+      <!-- Rechte Spalte: Formular -->
       <div class="col-lg-7">
         <!-- отправка через Formspree (замени XXXXX на свой ID) -->
         <form action="https://formspree.io/f/XXXXX" method="POST" class="row g-3">
-          <div class="col-md-6"><input class="form-control form-control-lg" name="name" placeholder="Name" required></div>
-          <div class="col-md-6"><input class="form-control form-control-lg" type="email" name="email" placeholder="E-Mail" required></div>
-          <div class="col-12"><input class="form-control form-control-lg" name="telefon" placeholder="Telefon"></div>
-          <div class="col-12"><textarea class="form-control form-control-lg" name="nachricht" rows="5" placeholder="Ihre Anfrage"></textarea></div>
-          <div class="col-12"><button class="btn btn-accent btn-lg w-100" type="submit"><i class="bi bi-send me-2"></i> Abschicken</button></div>
+          <div class="col-md-6">
+            <input class="form-control form-control-lg" name="name" placeholder="Name" required>
+          </div>
+          <div class="col-md-6">
+            <input class="form-control form-control-lg" type="email" name="email" placeholder="E-Mail" required>
+          </div>
+          <div class="col-12">
+            <input class="form-control form-control-lg" name="telefon" placeholder="Telefon">
+          </div>
+          <div class="col-12">
+            <textarea class="form-control form-control-lg" name="nachricht" rows="5" placeholder="Ihre Anfrage"></textarea>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-accent btn-lg w-100" type="submit">
+              <i class="bi bi-send me-2"></i> Abschicken
+            </button>
+          </div>
         </form>
       </div>
+
     </div>
   </div>
 </section>
+
 
 <!-- FOOTER -->
 <footer class="border-top py-4">
