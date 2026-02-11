@@ -33,6 +33,14 @@
   box-shadow:0 0 0.75rem rgba(215, 188, 116, 0.55);
 }
 
+.btn-accent-glow:hover,
+.btn-accent-glow:focus{
+  background:#d7bc74;
+  border-color:#d7bc74;
+  color:#111;
+  box-shadow:0 0 0.75rem rgba(215, 188, 116, 0.55);
+}
+
 /* scroll reveal */
 .reveal{opacity:0; transform:translateY(14px); transition:opacity .6s ease, transform .6s ease}
 .reveal.is-visible{opacity:1; transform:none}
